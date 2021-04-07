@@ -1,12 +1,10 @@
 [
   {
-    "id": 1,
-    "username": "nithin",
-    "firstName": "Nithin",
-    "lastName": "Kashiyap",
-    "email": "abc@123.com",
-    "password": "qwerty",
-    "phone": "9966332211",
-    "userStatus": 2
-  }
+  "id": 1,
+  "title": "NAUTICA",
+  "description": "qwertyuiop",
+  "pageCount": 300,
+  "excerpt": "zxcvbnm",
+  "publishDate": "2021-04-06T09:09:26.079Z"
+}
 ]

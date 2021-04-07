@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="10.951" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="7.855" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
     <property name="java.vm.version" value="25.271-b09"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\nithi\Desktop\API_Test_Framework\API_Test_Framework"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Capgemini\EclipseTesting\API_Test_Framework2"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\nithi\Desktop\API_Test_Framework\API_Test_Framework"/>
+    <property name="user.dir" value="E:\Capgemini\EclipseTesting\API_Test_Framework2"/>
     <property name="java.runtime.version" value="1.8.0_271-b09"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="E:\Capgemini\EclipseTesting\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1477814553318193076.tmp"/>
+    <property name="classworlds.conf" value="E:\Capgemini\EclipseTesting\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1412014323456769189.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_271/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_271/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_271/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\MATLAB\R2017b\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;E:\Capgemini\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\nithi\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\nithi\AppData\Local\Programs\Python\Python37\;C:\Program Files\Java\jdk-14.0.1\bin;D:\PyCharm Community Edition 2020.1.1\bin;;C:\Users\nithi\Desktop\New folder (2)\node-v14.16.0-win-x64;;C:\Users\nithi\AppData\Local\Microsoft\WindowsApps;E:\Capgemini\eclipse-java-oxygen-3a-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -54,7 +54,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\nithi\Desktop\API_Test_Framework\API_Test_Framework\EMBEDDED"/>
+    <property name="maven.home" value="E:\Capgemini\EclipseTesting\API_Test_Framework2\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -62,5 +62,104 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="feature" classname="runner.Runner" time="8.771"/>
+  <testcase name="feature" classname="runner.Runner" time="6.232">
+    <failure message="java.lang.AssertionError: expected [400] but found [200]" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+Caused by: java.lang.AssertionError: expected [400] but found [200]
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+@test
+Feature: Book Store
+{
+    "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-b214d02f1245534db366c74192521554-ee303c1278e66d4d-00",
+    "errors": {
+        "$": [
+            "The JSON value could not be converted to FakeRestAPI.Models.Book. Path: $ | LineNumber: 0 | BytePositionInLine: 1."
+        ]
+    }
+}
+
+  @functionalTest
+  Scenario: book added with valid details      # Book_Post.feature:5
+    Given I want to add details of book        # FunctionalSteps.i_want_to_add_details_of_book()
+    When I send data of book with valid fields # FunctionalSteps.i_send_data_of_book_with_valid_fields()
+    Then book should be created                # FunctionalSteps.book_should_be_created()
+      java.lang.AssertionError: expected [400] but found [200]
+      	at org.testng.Assert.fail(Assert.java:96)
+      	at org.testng.Assert.failNotEquals(Assert.java:776)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+      	at org.testng.Assert.assertEquals(Assert.java:118)
+      	at org.testng.Assert.assertEquals(Assert.java:652)
+      	at org.testng.Assert.assertEquals(Assert.java:662)
+      	at steps.FunctionalSteps.book_should_be_created(FunctionalSteps.java:53)
+      	at ?.Then book should be created(Book_Post.feature:8)
+
+{
+    "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-a7dbb885c07ebb4fb5f21c0c272748ee-9459e6eede38ea4e-00",
+    "errors": {
+        "$": [
+            "The JSON value could not be converted to FakeRestAPI.Models.Book. Path: $ | LineNumber: 0 | BytePositionInLine: 1."
+        ]
+    }
+}
+
+  Scenario: book added with invalid title             # Book_Post.feature:10
+    Given I want to add details of book               # FunctionalSteps.i_want_to_add_details_of_book()
+    When I send data of book with invalid title       # FunctionalSteps.i_send_data_of_book_with_invalid_title()
+    Then book should not be created and errors thrown # FunctionalSteps.book_should_not_be_created_and_errors_thrown()
+{
+    "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-343613fb000e724b9ca6ab8412e2d7df-246033e6dfa9a049-00",
+    "errors": {
+        "$": [
+            "The JSON value could not be converted to FakeRestAPI.Models.Book. Path: $ | LineNumber: 0 | BytePositionInLine: 1."
+        ]
+    }
+}
+
+  Scenario: book added with invalid description       # Book_Post.feature:15
+    Given I want to add details of book               # FunctionalSteps.i_want_to_add_details_of_book()
+    When I send data of book with invalid description # FunctionalSteps.i_send_data_of_book_with_invalid_description()
+    Then book should not be created and errors thrown # FunctionalSteps.book_should_not_be_created_and_errors_thrown()
+{
+    "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-418e874b7f072044826cd4e52368cf0f-4455db74cc342745-00",
+    "errors": {
+        "$": [
+            "The JSON value could not be converted to FakeRestAPI.Models.Book. Path: $ | LineNumber: 0 | BytePositionInLine: 1."
+        ]
+    }
+}
+
+  Scenario: book added with invalid excerpt           # Book_Post.feature:20
+    Given I want to add details of book               # FunctionalSteps.i_want_to_add_details_of_book()
+    When I send data of book with invalid excerpt     # FunctionalSteps.i_send_data_of_book_with_invalid_excerpt()
+    Then book should not be created and errors thrown # FunctionalSteps.book_should_not_be_created_and_errors_thrown()
+{
+    "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "00-5fa0506048babe43b7dd4e6f71c1729d-d2e0f12b23b88046-00",
+    "errors": {
+        "$": [
+            "The JSON value could not be converted to FakeRestAPI.Models.Book. Path: $ | LineNumber: 0 | BytePositionInLine: 1."
+        ]
+    }
+}
+
+  Scenario: book added with invalid publishdate       # Book_Post.feature:25
+    Given I want to add details of book               # FunctionalSteps.i_want_to_add_details_of_book()
+    When I send data of book with invalid publishdate # FunctionalSteps.i_send_data_of_book_with_invalid_publishdate()
+    Then book should not be created and errors thrown # FunctionalSteps.book_should_not_be_created_and_errors_thrown()
+]]></system-out>
+  </testcase>
 </testsuite>

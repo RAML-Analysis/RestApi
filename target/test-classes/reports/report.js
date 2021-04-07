@@ -1,9 +1,9 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("RetrieveRestCountries_Functional.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Book_Post.feature");
 formatter.feature({
   "line": 2,
-  "name": "Pet Store",
+  "name": "Book Store",
   "description": "",
-  "id": "pet-store",
+  "id": "book-store",
   "keyword": "Feature",
   "tags": [
     {
@@ -14,9 +14,9 @@ formatter.feature({
 });
 formatter.scenario({
   "line": 5,
-  "name": "Users added with valid details",
+  "name": "book added with valid details",
   "description": "",
-  "id": "pet-store;users-added-with-valid-details",
+  "id": "book-store;book-added-with-valid-details",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -28,171 +28,214 @@ formatter.scenario({
 });
 formatter.step({
   "line": 6,
-  "name": "I want to add users into pet store",
+  "name": "I want to add details of book",
   "keyword": "Given "
 });
 formatter.step({
   "line": 7,
-  "name": "I send data of users with valid fields",
+  "name": "I send data of book with valid fields",
   "keyword": "When "
 });
 formatter.step({
   "line": 8,
-  "name": "users should be created",
+  "name": "book should be created",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "FunctionalSteps.i_want_to_add_users_into_pet_store()"
+  "location": "FunctionalSteps.i_want_to_add_details_of_book()"
 });
 formatter.result({
-  "duration": 1318413700,
+  "duration": 891122400,
   "status": "passed"
 });
 formatter.match({
-  "location": "FunctionalSteps.i_send_data_of_users_with_valid_fields()"
+  "location": "FunctionalSteps.i_send_data_of_book_with_valid_fields()"
 });
 formatter.result({
-  "duration": 2431308700,
+  "duration": 1597946200,
   "status": "passed"
 });
 formatter.match({
-  "location": "FunctionalSteps.users_should_be_created()"
+  "location": "FunctionalSteps.book_should_be_created()"
 });
 formatter.result({
-  "duration": 7274500,
+  "duration": 55765500,
   "status": "passed"
 });
 formatter.scenario({
   "line": 10,
-  "name": "Users added with invalid details",
+  "name": "book added with invalid title",
   "description": "",
-  "id": "pet-store;users-added-with-invalid-details",
+  "id": "book-store;book-added-with-invalid-title",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 11,
-  "name": "I want to add users into pet store",
+  "name": "I want to add details of book",
   "keyword": "Given "
 });
 formatter.step({
   "line": 12,
-  "name": "I send data of users with invalid fields",
+  "name": "I send data of book with invalid title",
   "keyword": "When "
 });
 formatter.step({
   "line": 13,
-  "name": "users should not be created and errors thrown",
+  "name": "book should not be created and errors thrown",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "FunctionalSteps.i_want_to_add_users_into_pet_store()"
+  "location": "FunctionalSteps.i_want_to_add_details_of_book()"
 });
 formatter.result({
-  "duration": 3193400,
+  "duration": 832700,
   "status": "passed"
 });
 formatter.match({
-  "location": "FunctionalSteps.i_send_data_of_users_with_invalid_fields()"
+  "location": "FunctionalSteps.i_send_data_of_book_with_invalid_title()"
 });
 formatter.result({
-  "duration": 1240471700,
+  "duration": 864213400,
   "status": "passed"
 });
 formatter.match({
-  "location": "FunctionalSteps.users_should_not_be_created_and_errors_thrown()"
+  "location": "FunctionalSteps.book_should_not_be_created_and_errors_thrown()"
 });
 formatter.result({
-  "duration": 464900,
+  "duration": 2212600,
   "status": "passed"
 });
 formatter.scenario({
   "line": 15,
-  "name": "User details retrieved",
+  "name": "book added with invalid description",
   "description": "",
-  "id": "pet-store;user-details-retrieved",
+  "id": "book-store;book-added-with-invalid-description",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 16,
-  "name": "I want to get the user data",
+  "name": "I want to add details of book",
   "keyword": "Given "
 });
 formatter.step({
   "line": 17,
-  "name": "I request data of users with valid fields",
+  "name": "I send data of book with invalid description",
   "keyword": "When "
 });
 formatter.step({
   "line": 18,
-  "name": "I get the details of users",
+  "name": "book should not be created and errors thrown",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "FunctionalSteps.i_want_to_get_the_user_data()"
+  "location": "FunctionalSteps.i_want_to_add_details_of_book()"
 });
 formatter.result({
-  "duration": 7083900,
+  "duration": 1003200,
   "status": "passed"
 });
 formatter.match({
-  "location": "FunctionalSteps.i_request_data_of_users_with_valid_fields()"
+  "location": "FunctionalSteps.i_send_data_of_book_with_invalid_description()"
 });
 formatter.result({
-  "duration": 1334401500,
+  "duration": 850051600,
   "status": "passed"
 });
 formatter.match({
-  "location": "FunctionalSteps.i_get_the_details_of_users()"
+  "location": "FunctionalSteps.book_should_not_be_created_and_errors_thrown()"
 });
 formatter.result({
-  "duration": 648777100,
-  "error_message": "java.lang.NumberFormatException: For input string: \"Nithin\"\r\n\tat java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)\r\n\tat java.lang.Long.parseLong(Long.java:589)\r\n\tat java.lang.Long.parseLong(Long.java:631)\r\n\tat java_lang_Long$parseLong.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)\r\n\tat io.restassured.internal.common.path.ObjectConverter.convertObjectTo(ObjectConverter.groovy:43)\r\n\tat io.restassured.path.json.JsonPath.getLong(JsonPath.java:340)\r\n\tat validators.Validator.validateResponse(Validator.java:12)\r\n\tat steps.FunctionalSteps.i_get_the_details_of_users(FunctionalSteps.java:117)\r\n\tat ✽.Then I get the details of users(RetrieveRestCountries_Functional.feature:18)\r\n",
-  "status": "failed"
+  "duration": 1401600,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 20,
-  "name": "User details unavailable",
+  "name": "book added with invalid excerpt",
   "description": "",
-  "id": "pet-store;user-details-unavailable",
+  "id": "book-store;book-added-with-invalid-excerpt",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 21,
-  "name": "I want to get the user data",
+  "name": "I want to add details of book",
   "keyword": "Given "
 });
 formatter.step({
   "line": 22,
-  "name": "I request data of users with invalid fields",
+  "name": "I send data of book with invalid excerpt",
   "keyword": "When "
 });
 formatter.step({
   "line": 23,
-  "name": "I get an error",
+  "name": "book should not be created and errors thrown",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "FunctionalSteps.i_want_to_get_the_user_data()"
+  "location": "FunctionalSteps.i_want_to_add_details_of_book()"
 });
 formatter.result({
-  "duration": 1116500,
+  "duration": 2557300,
   "status": "passed"
 });
 formatter.match({
-  "location": "FunctionalSteps.i_request_data_of_users_with_invalid_fields()"
+  "location": "FunctionalSteps.i_send_data_of_book_with_invalid_excerpt()"
 });
 formatter.result({
-  "duration": 1335750400,
+  "duration": 882405200,
   "status": "passed"
 });
 formatter.match({
-  "location": "FunctionalSteps.i_get_an_error()"
+  "location": "FunctionalSteps.book_should_not_be_created_and_errors_thrown()"
 });
 formatter.result({
-  "duration": 36511100,
+  "duration": 1724100,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 25,
+  "name": "book added with invalid publishdate",
+  "description": "",
+  "id": "book-store;book-added-with-invalid-publishdate",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 26,
+  "name": "I want to add details of book",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 27,
+  "name": "I send data of book with invalid publishdate",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 28,
+  "name": "book should not be created and errors thrown",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "FunctionalSteps.i_want_to_add_details_of_book()"
+});
+formatter.result({
+  "duration": 1067300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "FunctionalSteps.i_send_data_of_book_with_invalid_publishdate()"
+});
+formatter.result({
+  "duration": 956901200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "FunctionalSteps.book_should_not_be_created_and_errors_thrown()"
+});
+formatter.result({
+  "duration": 27414500,
   "status": "passed"
 });
 });

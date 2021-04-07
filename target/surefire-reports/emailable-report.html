@@ -9,10 +9,16 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">API Framework</th></tr>
-<tr><td><a href="#t0">api test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">9,312</td><td></td><td></td></tr>
+<tr><td><a href="#t0">api test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">6,559</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">API Framework</th></tr></tbody><tbody id="t0"><tr><th colspan="4">api test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">runner.Runner</td><td><a href="#m0">feature</a></td><td rowspan="1">1617615590677</td><td rowspan="1">8770</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">API Framework</th></tr></tbody><tbody id="t0"><tr><th colspan="4">api test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">runner.Runner</td><td><a href="#m0">feature</a></td><td rowspan="1">1617793450730</td><td rowspan="1">6219</td></tr></tbody>
 </table>
-<h2>api test</h2><h3 id="m0">runner.Runner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Pet Store</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>api test</h2><h3 id="m0">runner.Runner#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Book Store</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [400] but found [200]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+Caused by: java.lang.AssertionError: expected [400] but found [200]
+	at steps.FunctionalSteps.book_should_be_created(FunctionalSteps.java:53)
+	at ✽.Then book should be created(Book_Post.feature:8)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

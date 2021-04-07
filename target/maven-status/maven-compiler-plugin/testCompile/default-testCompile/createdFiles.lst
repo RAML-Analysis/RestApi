@@ -3,5 +3,4 @@ utils\FileManager.class
 config\ConfigProvider.class
 constants\EndPoint.class
 steps\FunctionalSteps.class
-validators\Validator.class
 constants\Index.class
